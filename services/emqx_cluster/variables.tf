@@ -223,13 +223,13 @@ variable "emqx_cookie" {
 variable "emqx4_package" {
   description = "(Required) The install package of emqx4"
   type        = string
-  default     = ""
+  default     = "https://www.emqx.com/en/downloads/enterprise/4.4.16/emqx-ee-4.4.16-otp24.3.4.2-1-ubuntu20.04-amd64.zip"
 }
 
 variable "emqx5_package" {
   description = "(Required) The install package of emqx5"
   type        = string
-  default     = ""
+  default     = "https://www.emqx.com/en/downloads/broker/5.0.24/emqx-5.0.24-ubuntu20.04-amd64.tar.gz"
 }
 
 variable "emqx5_core_count" {
